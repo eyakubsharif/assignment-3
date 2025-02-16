@@ -920,6 +920,9 @@
   .w-20 {
     width: calc(var(--spacing) * 20);
   }
+  .w-full {
+    width: 100%;
+  }
   .w-screen {
     width: 100vw;
   }
@@ -1461,6 +1464,9 @@
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
+  .rounded-3xl {
+    border-radius: var(--radius-3xl);
+  }
   .rounded-\[50\%\] {
     border-radius: 50%;
   }
@@ -1610,6 +1616,12 @@
   }
   .bg-gray-50 {
     background-color: var(--color-gray-50);
+  }
+  .bg-gray-100 {
+    background-color: var(--color-gray-100);
+  }
+  .bg-gray-200 {
+    background-color: var(--color-gray-200);
   }
   .bg-purple-50 {
     background-color: var(--color-purple-50);
