@@ -9,7 +9,7 @@
 </head>
 <body>
 <header class="w-9/10 mx-auto h-screen">
-    <nav class="flex items-center justify-between bg-amber-50">
+    <nav class="lg:flex   items-center justify-between bg-amber-50">
         <!-- logo section -->
          <div class="flex items-center gap-3">
             <img src="images/logo-header.png" alt="">
@@ -40,15 +40,15 @@
             <button class="py-2 px-3 bg-amber-300 rounded-xl">Ragister</button>
          </div>
          <!-- right div  -->
-          <div class="absolute -translate-y-50 z-0 "> <img class="h-auto " src="images/cat-big.png" alt=""></div>
+          <div class="absolute -translate-y-50 z-0 mt-30 "> <img class="h-auto " src="images/cat-big.png" alt=""></div>
      </div>
 
 </header>
 <main>
     <div class="py-20">
         <h2 class="text-2xl font-bold mb-7 w-9/10">Browse By Categories</h2>
-        <div class="w-9/10 mx-auto lg:flex justify-around items-center">
-            <div class="card bg-amber-400 text-center py-5 px-10 rounded-2xl shadow-2xl">
+        <div class="w-9/10 mx-auto lg:flex gap-4 justify-around items-center">
+            <div class="card bg-amber-400 text-center py-5 px-10 mb-4 rounded-2xl shadow-2xl">
                 <img class="bg-white py-3 px-2 mx-auto rounded-[50%]" src="images/dog-cartoon.png" alt="">
                 <div>
                     <p class="font-bold">Dog</p>
@@ -56,35 +56,35 @@
                 </div>
             </div>
 
-            <div class="card bg-amber-400 text-center py-5 px-10 rounded-2xl shadow-2xl">
+            <div class="card bg-amber-400 text-center py-5 mb-4 px-10 rounded-2xl shadow-2xl">
                 <img class="bg-white py-3 px-2 mx-auto rounded-[50%]" src="images/pet-couch.png" alt="">
                 <div>
                     <p class="font-bold">Dog</p>
                     <p>Item One</p>
                 </div>
             </div>
-            <div class="card bg-amber-400 text-center py-5 px-10 rounded-2xl shadow-2xl">
+            <div class="card bg-amber-400 text-center mb-4 py-5 px-10 rounded-2xl shadow-2xl">
                 <img class="bg-white py-3 px-2 mx-auto rounded-[50%]" src="images/fish-cartoon.png" alt="">
                 <div>
                     <p class="font-bold">Dog</p>
                     <p>Item One</p>
                 </div>
             </div>
-            <div class="card bg-amber-400 text-center py-5 px-10 rounded-2xl shadow-2xl">
+            <div class="card bg-amber-400 text-center mb-4 py-5 px-10 rounded-2xl shadow-2xl">
                 <img class="bg-white py-3 px-2 mx-auto rounded-[50%]" src="images/mouse-cartoon.png" alt="">
                 <div>
                     <p class="font-bold">Dog</p>
                     <p>Item One</p>
                 </div>
             </div>
-            <div class="card bg-amber-400 text-center py-5 px-10 rounded-2xl shadow-2xl">
+            <div class="card bg-amber-400 text-center mb-4 py-5 px-10 rounded-2xl shadow-2xl">
                 <img class="bg-white py-3 px-2 mx-auto rounded-[50%]" src="images/cat-cartoon.png" alt="">
                 <div>
                     <p class="font-bold">Dog</p>
                     <p>Item One</p>
                 </div>
             </div>
-            <div class="card bg-amber-400 text-center py-5 px-10 rounded-2xl shadow-2xl">
+            <div class="card bg-amber-400 text-center mb-4 py-5 px-10 rounded-2xl shadow-2xl">
                 <img class="bg-white py-3 px-2 mx-auto rounded-[50%]" src="images/fish-cartoon.png" alt="">
                 <div>
                     <p class="font-bold">Dog</p>
@@ -93,6 +93,124 @@
             </div>
         </div>
     </div>
+    <!-- Trending section start here  -->
+     <div class="py-20 bg-amber-300">
+        <h2 class="w-9/10 mx-auto mb-5 text-2xl font-bold">Trending Pet Products</h2>
+        <div class="grid lg:grid-cols-3 w-9/10 mx-auto grid-cols-1">
+            <!-- left div  -->
+             <div class="bg-amber-200 grid-cols-1 pt-5 px-3 shadow-2xl">
+                <h2 class="text-2xl my-4  font-bold">T-Shirt for Dogs</h2>
+                <p class="mb-4">Discover a world of treats, toys, and essentials handpicked for </p>
+                <button class="py-2 px-3 bg-white ">Show Now </button>
+                <img class="float-right h-50 -mt-5" src="images/cute-pet-mid.png" alt="">
+             </div>
+            <!-- right div  -->
+            <div class=" grid col-span-2 mt-5 lg:ml-5">
+                <div class="grid lg:grid-cols-3 grid-cols-2 grid-rows-3 gap-5">
+                    <div class="bg-white rounded-xl shadow flex gap-2 items-center ">
+                        <img class="h-20 py-3 px-3 mt-5 bg-amber-50 m-2 w-20" src="images/dog-cartoon.png" alt="">
+                        <div>
+                            <i class="text-amber-400 fa-regular fa-star"> </i><span class="font-bold">4.5</span>
+                            <p class="font-bold">Pet Bet</p>
+                            <p>$9</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl shadow flex gap-2 items-center ">
+                        <img class="h-20 py-3 px-3 mt-5 bg-amber-50 m-2 w-20" src="images/fish-cartoon.png" alt="">
+                        <div>
+                            <i class="text-amber-400 fa-regular fa-star"> </i><span class="font-bold">4.5</span>
+                            <p class="font-bold">Pet Bet</p>
+                            <p>$9</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl shadow flex gap-2 items-center ">
+                        <img class="h-20 py-3 px-3 mt-5 bg-amber-50 m-2 w-20" src="images/dog-cartoon.png" alt="">
+                        <div>
+                            <i class="text-amber-400 fa-regular fa-star"> </i><span class="font-bold">4.5</span>
+                            <p class="font-bold">Pet Bet</p>
+                            <p>$9</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl shadow flex gap-2 items-center ">
+                        <img class="h-20 py-3 px-3 mt-5 bg-amber-50 m-2 w-20" src="images/rabbit-cartoon.png" alt="">
+                        <div>
+                            <i class="text-amber-400 fa-regular fa-star"> </i><span class="font-bold">4.5</span>
+                            <p class="font-bold">Pet Bet</p>
+                            <p>$9</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl shadow flex gap-2 items-center ">
+                        <img class="h-20 py-3 px-3 mt-5 bg-amber-50 m-2 w-20" src="images/pet-couch.png" alt="">
+                        <div>
+                            <i class="text-amber-400 fa-regular fa-star"> </i><span class="font-bold">4.5</span>
+                            <p class="font-bold">Pet Bet</p>
+                            <p>$9</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl shadow flex gap-2 items-center ">
+                        <img class="h-20 py-3 px-3 mt-5 bg-amber-50 m-2 w-20" src="images/mouse-cartoon.png" alt="">
+                        <div>
+                            <i class="text-amber-400 fa-regular fa-star"> </i><span class="font-bold">4.5</span>
+                            <p class="font-bold">Pet Bet</p>
+                            <p>$9</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl shadow flex gap-2 items-center ">
+                        <img class="h-20 py-3 px-3 mt-5 bg-amber-50 m-2 w-20" src="images/cat-cartoon.png" alt="">
+                        <div>
+                            <i class="text-amber-400 fa-regular fa-star"> </i><span class="font-bold">4.5</span>
+                            <p class="font-bold">Pet Bet</p>
+                            <p>$9</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl shadow flex gap-2 items-center ">
+                        <img class="h-20 py-3 px-3 mt-5 bg-amber-50 m-2 w-20" src="images/mouse-cartoon.png" alt="">
+                        <div>
+                            <i class="text-amber-400 fa-regular fa-star"> </i><span class="font-bold">4.5</span>
+                            <p class="font-bold">Pet Bet</p>
+                            <p>$9</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl shadow flex gap-2 items-center ">
+                        <img class="h-20 py-3 px-3 mt-5 bg-amber-50 m-2 w-20" src="images/fish-cartoon.png" alt="">
+                        <div>
+                            <i class="text-amber-400 fa-regular fa-star"> </i><span class="font-bold">4.5</span>
+                            <p class="font-bold">Pet Bet</p>
+                            <p>$9</p>
+                        </div>
+                    </div>
+                    
+
+
+                </div>
+            </div>
+        </div>
+     </div>
+<!-- low section start here  -->
+
+     <div class="py-20">
+        <h2 class="font-bold  text-2xl w-9/10 mx-auto mb-5">Every day low price</h2>
+        <div class="flex items-center w-9/10 mx-auto gap-5 ">
+            <!-- left div  -->
+            <div class="flex items-center bg-purple-300 w-6/9 justify-between px-20 rounded-2xl shadow-2xl">
+                <div>
+                    <p class="py-3" >Under Price</p>
+                    <h2 class="font-bold text-2xl">Pet Grooming Mitt</h2>
+                    <h2 class="font-bold text-xl text-white">(Easy Hair Removal)</h2>
+                    <h2 class="font-bold text-3xl">$15.5</h2>
+                </div>
+                <img class="h-100" src="images/cute-dog-mid.png" alt="">
+            </div>
+            <!-- rigth div  -->
+            <div class="bg-amber-100 w-4/9 py-5 px-5 rounded-2xl shadow-amber-50 ">
+                <h2 class="text-3xl font-bold">T-Shirt for Dogs</h2>
+                <h2 class="text-3xl font-bold text-amber-300 ">$7.99</h2>
+                <div>
+                    <img class="h-72 float-right" src="images/cute-pet-mid.png" alt="">
+                </div>
+            </div>
+         </div>
+     </div>
 </main>
 </body>
 </html>
