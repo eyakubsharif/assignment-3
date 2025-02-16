@@ -11,22 +11,28 @@
 <header class="w-9/10 mx-auto h-screen">
     <nav class="lg:flex   items-center justify-between bg-amber-50">
         <!-- logo section -->
-         <div class="flex items-center gap-3">
-            <img src="images/logo-header.png" alt="">
-            <p>Browse Pets</p>
+         <div class="flex justify-between">
+            <div class="flex items-center gap-3">
+                <img src="images/logo-header.png" alt="">
+                <p>Browse Pets</p>
+                
+             </div>
+             <div class="lg:hidden">
+                <i class="fa-solid fa-bars"></i>
+             </div>
          </div>
-         <ul class="flex gap-4 items-center ml-20">
+         <ul class="lg:flex gap-4 items-center ml-20 hidden">
             <li><a href="">Find a pet</a></li>
             <li><a href="">Breed</a></li>
             <li><a href="">Contacts Us</a></li>
          </ul>
          <!-- nav icon  -->
-          <div class="flex gap-4">
+          <div class="lg:flex gap-4 hidden">
             <i class="fa-regular fa-bell"></i>
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>
         <!-- nav button  -->
-         <div class="flex gap-5"> 
+         <div class="lg:flex gap-5 hidden"> 
             <button class="py-2 px-3 bg-white ">Login </button>
             <button class="py-2 px-3 bg-amber-300 rounded-xl">Ragister</button>
          </div>
@@ -40,10 +46,11 @@
             <button class="py-2 px-3 bg-amber-300 rounded-xl">Ragister</button>
          </div>
          <!-- right div  -->
-          <div class="absolute -translate-y-50 z-0 mt-30 "> <img class="h-auto " src="images/cat-big.png" alt=""></div>
+          <div class="absolute -translate-y-50 z-0  "> <img class="h-auto " src="images/cat-big.png" alt=""></div>
      </div>
 
 </header>
+<marquee class="animate-bounce text-5xl font-bold" behavior="" direction=""> <span class="text-amber-300">I could not complete my</span> <span class="text-red-500">assignment 3</span> due to my exam is running <span class="text-green-500">Please consider me</span></marquee>
 <main>
     <div class="py-20">
         <h2 class="text-2xl font-bold mb-7 w-9/10">Browse By Categories</h2>
@@ -190,10 +197,10 @@
 
      <div class="py-20">
         <h2 class="font-bold  text-2xl w-9/10 mx-auto mb-5">Every day low price</h2>
-        <div class="flex items-center w-9/10 mx-auto gap-5 ">
+        <div class="lg:flex items-center w-9/10 mx-auto gap-5 ">
             <!-- left div  -->
-            <div class="flex items-center bg-purple-300 w-6/9 justify-between px-20 rounded-2xl shadow-2xl">
-                <div>
+            <div class="lg:flex items-center bg-purple-300 lg:w-6/9 justify-between px-20 rounded-2xl shadow-2xl">
+                <div class="">
                     <p class="py-3" >Under Price</p>
                     <h2 class="font-bold text-2xl">Pet Grooming Mitt</h2>
                     <h2 class="font-bold text-xl text-white">(Easy Hair Removal)</h2>
@@ -202,7 +209,7 @@
                 <img class="h-100" src="images/cute-dog-mid.png" alt="">
             </div>
             <!-- rigth div  -->
-            <div class="bg-amber-100 w-4/9 py-5 px-5 rounded-2xl shadow-amber-50 ">
+            <div class=" bg-amber-100 lg:w-4/9 py-5 h-100 px-5 rounded-2xl shadow-amber-50 ">
                 <h2 class="text-3xl font-bold">T-Shirt for Dogs</h2>
                 <h2 class="text-3xl font-bold text-amber-300 ">$7.99</h2>
                 <div>
@@ -211,19 +218,50 @@
             </div>
          </div>
      </div>
-++++++++++++++++++++++++++++++
-    <div class="w-9/10 mx-auto  bg-gray-200 rounded-3xl  flex justify-around items-center">   
-        <div>
-            <img src="images/cute-pet-mid.png" alt="">
+<!-- +++++++++++ footer section +++++++++++++++++++ -->
+    <div>   
+        <div class="w-9/10 z-10 mx-auto relative  bg-gray-200 rounded-3xl pb-15  lg:flex justify-around items-center">   
+            <div>
+                <img src="images/cute-pet-mid.png" alt="">
+            </div>
+            <div>
+                <h2 class="font-bold text-2xl">Get Pawsome News!</h2>
+                <p class="">Exclusive training tips, ticks, product deals and more.</p>
+                <input type="text" placeholder="Enter your mail" class=" m-5 rounded-2xl bg-white py-3 w-full px-3">
+                <button class="py-2 px-4 bg-amber-300 rounded-xl">Ragister</button>
+            </div>
         </div>
-        <div>
-            <h2 class="font-bold text-2xl">Get Pawsome News!</h2>
-            <p class="">Exclusive training tips, ticks, product deals and more.</p>
-            <input type="text" placeholder="Enter your mail" class=" m-5 rounded-2xl bg-white py-3 w-full px-3">
-            <button class="py-2 px-4 bg-amber-300 rounded-xl">Ragister</button>
-        </div>
+        <!-- footer section start here  -->
+        <footer class="bg-amber-200 py-30 px-10 absolute -translate-y-20 z-0">
+            <div class="grid lg:grid-cols-3 gap-y-10 items-center">
+                <div class="">
+                    
+                    <div class="flex items-center gap-1 mb-3">
+                        <img src="images/logo-footer.png" alt="">
+                    <p>Browse Pets</p>
+                        
+                    </div>
+                    <p>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+                </div>
+                <div>
+                    <ul >
+                        <li>Find pet</li>
+                        <li class="py-4">Breeds</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="font-bold">Follow Us</p>
+                    <div class="flex gap-5 mt-3">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
-
 </main>
 </body>
 </html>
